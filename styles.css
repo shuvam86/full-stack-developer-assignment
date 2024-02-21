@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(228, 221, 221);
+    
+}
+.main {
+    margin: 10px;
+    display: flex;
+    background-color: white;
+}
+
+.left-side {
+    border: 2px solid blue;
+}
+
+.right-side {
+    border: 2px solid red;
+    width: 100%;
+    padding: 20px;
+}
+
+.image1 {
+    height: 500px;
+    width: 500px;
+}
+
+.sign-in-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    border: 2px solid blue;
+    padding: 10px;
+    color: blue;
+    background-color: white;
+    height: 40px;
+    width: 100px;
+}
+
+.heading {
+    margin-top: 10%;
+    margin-left: 4%;
+}
+
+.main-heading, .sub-heading {
+    color: blue;
+}
+
+.main-heading {
+    font-size: 32px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-group label {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    flex: 1;
+    padding: 5px;
+}
+
+.form-group input[type="submit"] {
+    margin-left: 110px;
+}
